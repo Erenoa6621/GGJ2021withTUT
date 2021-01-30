@@ -8,10 +8,12 @@ public class GameUI : MonoBehaviour
 {
     [SerializeField] GameObject objMobile;
     [SerializeField] GameObject objEffect;
+    [SerializeField] GameObject objStressLevel;
     [SerializeField] TextMeshProUGUI tmproText;
     [SerializeField] Image objImage;
     [SerializeField] int lowPower;
     [SerializeField] int middlePower;
+    [SerializeField] int midHightPower;
     [SerializeField] GameObject objPlayer;
 
     // Start is called before the first frame update
@@ -47,17 +49,24 @@ public class GameUI : MonoBehaviour
 
         objImage.fillAmount = dispBarLength;
 
-        if(power <= lowPower)
+        if (power <= lowPower)
         {
             objImage.color = new Color(1.0f, 0.0f, 0.0f, 1.0f);
+            objStressLevel.GetComponent<Animator>().SetInteger("StressLevel", 3);
         }
         else if(power < middlePower)
         {
             objImage.color = new Color(1.0f, 1.0f, 0.0f, 1.0f);
+            objStressLevel.GetComponent<Animator>().SetInteger("StressLevel", 2);
+        }
+        else if(power < midHightPower)
+        {
+            objStressLevel.GetComponent<Animator>().SetInteger("StressLevel", 1);
         }
         else
         {
             objImage.color = new Color(0.0f, 1.0f, 0.0f, 1.0f);
+            objStressLevel.GetComponent<Animator>().SetInteger("StressLevel", 0);
         }
     }
 }
