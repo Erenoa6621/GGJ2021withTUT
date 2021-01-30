@@ -6393,6 +6393,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5032419177560178064, guid: dae0c3b0dac298548ac3c24dbab77d8b,
         type: 3}
+      propertyPath: objMark
+      value: 
+      objectReference: {fileID: 3759107775597181764}
+    - target: {fileID: 5032419177560178064, guid: dae0c3b0dac298548ac3c24dbab77d8b,
+        type: 3}
       propertyPath: batteryLostSpeed
       value: 3
       objectReference: {fileID: 0}
@@ -6401,6 +6406,21 @@ PrefabInstance:
       propertyPath: batteryChargeSpeed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8370008572609838068, guid: dae0c3b0dac298548ac3c24dbab77d8b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008572609838068, guid: dae0c3b0dac298548ac3c24dbab77d8b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008572609838068, guid: dae0c3b0dac298548ac3c24dbab77d8b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 70
+      objectReference: {fileID: 0}
     - target: {fileID: 9173430762893809285, guid: dae0c3b0dac298548ac3c24dbab77d8b,
         type: 3}
       propertyPath: PlayerAni
@@ -6408,3 +6428,9 @@ PrefabInstance:
       objectReference: {fileID: 1045960551}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dae0c3b0dac298548ac3c24dbab77d8b, type: 3}
+--- !u!1 &3759107775597181764 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5605648368590301235, guid: dae0c3b0dac298548ac3c24dbab77d8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 3759107775597181763}
+  m_PrefabAsset: {fileID: 0}
