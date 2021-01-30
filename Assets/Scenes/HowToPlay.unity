@@ -421,6 +421,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2093878540}
     m_Modifications:
+    - target: {fileID: 1887056633783292624, guid: b40b5b39395ae994aa9fa78fc8afe714,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 481afd30d37ff8e4d971ac64e320270b,
+        type: 3}
+    - target: {fileID: 1887056633783292624, guid: b40b5b39395ae994aa9fa78fc8afe714,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887056633783292624, guid: b40b5b39395ae994aa9fa78fc8afe714,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887056633783292624, guid: b40b5b39395ae994aa9fa78fc8afe714,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1887056633783292654, guid: b40b5b39395ae994aa9fa78fc8afe714,
         type: 3}
       propertyPath: m_Name
@@ -533,6 +554,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b40b5b39395ae994aa9fa78fc8afe714, type: 3}
+--- !u!1 &1887056634715836721 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1887056633783292654, guid: b40b5b39395ae994aa9fa78fc8afe714,
+    type: 3}
+  m_PrefabInstance: {fileID: 1887056634715836720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1887056634715836722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887056634715836721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4658dfd470df589458e46995103f8609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4028360436915462420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -544,6 +583,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Introduction
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028360436703062802, guid: 1a49c8d0357d19b46a99636cae334602,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4028360436703062803, guid: 1a49c8d0357d19b46a99636cae334602,
         type: 3}
@@ -769,6 +813,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: How To Play Ttitle
       objectReference: {fileID: 0}
+    - target: {fileID: 6079299518024716285, guid: b1dbc0dc5eb698a4499bd95b3233e705,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1dbc0dc5eb698a4499bd95b3233e705, type: 3}
 --- !u!1001 &6681110598965411472
@@ -782,6 +831,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rules
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681110599020715495, guid: 27151fad5df435c47948b62318dda5fc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6681110599020715496, guid: 27151fad5df435c47948b62318dda5fc,
         type: 3}
