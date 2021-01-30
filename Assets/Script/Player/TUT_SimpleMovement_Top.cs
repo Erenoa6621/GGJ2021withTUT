@@ -8,7 +8,7 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 lastPos;
     [SerializeField] private float speed = 10f;
-    public GameObject[] hit; 
+    public GameObject[] hit;
 
     bool lookingRight = false;
     bool canMove = false;
@@ -20,15 +20,15 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-   // private void OnEnable()
-   // {
-   //     playerInput.Enable();
-   // }
-   // private void OnDisable()
-   // {
-   //     playerInput.Disable();
-   // }
-    
+    // private void OnEnable()
+    // {
+    //     playerInput.Enable();
+    // }
+    // private void OnDisable()
+    // {
+    //     playerInput.Disable();
+    // }
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -70,7 +70,7 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
 
             lastPos = gameObject.transform.position;
         }
-        else 
+        else
         {
             this.gameObject.transform.position = lastPos;
         }
