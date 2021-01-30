@@ -8,14 +8,19 @@ public class PlayerSystem : MonoBehaviour
     [SerializeField] int battery = 1000;
     [SerializeField] int batteryLostSpeed = 10;
     [SerializeField] int batteryChargeSpeed = 10;
+    [SerializeField] GameObject objMark;
     private bool chargeCheck;
     private int charge;
     private int Lost;
+    private GameObject objPlayer;
     void Start()
     {
         chargeCheck = false;
         charge = batteryChargeSpeed;
         Lost = batteryLostSpeed;
+        objPlayer = GameObject.Find("MainPlayer");
+
+        objMark.SetActive(false);
     }
 
     // Update is called once per frame
@@ -46,16 +51,33 @@ public class PlayerSystem : MonoBehaviour
             }
             charge--;
         }
+
+        // update mark
+        if (battery > 0 && Input.GetKeyDown(KeyCode.Space))
+        {
+            objMark.SetActive(true);
+        }
+        if (battery <= 0 || Input.GetKeyUp(KeyCode.Space))
+        {
+            objMark.SetActive(false);
+        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        chargeCheck = true;
+        if (collision.gameObject.tag == "charge")
+        {
+            chargeCheck = true;
+        }
 
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        chargeCheck = false;
+        if (collision.gameObject.tag == "charge")
+        {
+            chargeCheck = false;
+        }
     }
 
     public int GetBattery()
