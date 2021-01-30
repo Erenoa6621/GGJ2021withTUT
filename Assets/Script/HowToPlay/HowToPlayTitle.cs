@@ -16,7 +16,7 @@ public class HowToPlayTitle : MonoBehaviour
     {
         if (Input.anyKeyDown)
         {
-            SceneManager.LoadScene("KentMatsunaga");
+            SceneManager.LoadScene("Tutorial");
         }
     }
 }
