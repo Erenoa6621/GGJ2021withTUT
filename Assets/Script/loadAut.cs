@@ -16,16 +16,20 @@ public class loadAut : MonoBehaviour
     {
       
     }
-    private void OnTriggerExit2D(Collider2D collision)
+
+
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
+        if (collision.gameObject.tag == "floor")
+        {
+            loadLost = true;
+        }
         if (collision.gameObject.tag == "Load")
         {
             loadLost = false;
         }
+       
+
     }
 
 }
