@@ -20,7 +20,7 @@ public class Title : MonoBehaviour
         }
         else if (Input.anyKeyDown)
         {
-            SceneManager.LoadScene("HowToPlay");
+            SceneManager.LoadScene("Introduction");
         }
     }
 }
