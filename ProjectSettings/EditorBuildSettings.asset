@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 22c96c4f3ee9b57438327fe25b8d1be7
+  - enabled: 1
+    path: Assets/Scenes/HowToPlay.unity
+    guid: e5bb0425ac6827d46aa77de20e1f2f19
+  - enabled: 1
+    path: Assets/Scenes/KentMatsunaga.unity
+    guid: 797e20fd73d617d4a91b698698d97f46
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 61f9f34340d4e27478f8e71d40a2f2be
   m_configObjects: {}

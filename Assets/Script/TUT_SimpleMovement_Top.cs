@@ -6,9 +6,12 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
 {
     //private PlayerInput playerInput;
     private Rigidbody2D rb;
+    private Vector2 lastPos;
     [SerializeField] private float speed = 10f;
+    public GameObject[] hit; 
 
     bool lookingRight = false;
+    bool canMove = false;
 
     // Start is called before the first frame update
     void Awake()
@@ -30,7 +33,8 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-            //playerInput.Player.Move.ReadValue<Vector2>();
+        //playerInput.Player.Move.ReadValue<Vector2>();
+
         rb.velocity = moveInput * speed;
         if (moveInput.x >= 0)
             lookingRight = true;
@@ -41,15 +45,34 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
 
     private void LateUpdate()
     {
-        Vector3 localScale = transform.localScale;
-        if (lookingRight)
+
+        for (int i = 0; i < hit.Length; i++)
         {
-            localScale.x = -Mathf.Abs(this.gameObject.transform.localScale.x);
+            canMove = hit[i].GetComponent<loadAut>().loadLost;
+            if (canMove == true)
+            {
+                break;
+            }
         }
-        else
+
+        if (canMove == false)
         {
-            localScale.x = Mathf.Abs(this.gameObject.transform.localScale.x);
+            Vector3 localScale = transform.localScale;
+            if (lookingRight)
+            {
+                localScale.x = -Mathf.Abs(this.gameObject.transform.localScale.x);
+            }
+            else
+            {
+                localScale.x = Mathf.Abs(this.gameObject.transform.localScale.x);
+            }
+            transform.localScale = localScale;
+
+            lastPos = gameObject.transform.position;
         }
-        transform.localScale = localScale;
+        else 
+        {
+            this.gameObject.transform.position = lastPos;
+        }
     }
 }
