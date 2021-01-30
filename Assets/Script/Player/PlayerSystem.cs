@@ -8,9 +8,9 @@ public class PlayerSystem : MonoBehaviour
     [SerializeField] int battery = 1000;
     [SerializeField] int batteryLostSpeed = 10;
     [SerializeField] int batteryChargeSpeed = 10;
-    private bool chargeCheck;
-    private int charge;
-    private int Lost;
+    public bool chargeCheck;
+    public int charge;
+    public int Lost;
     void Start()
     {
         chargeCheck = false;
@@ -50,12 +50,18 @@ public class PlayerSystem : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        chargeCheck = true;
+        if (collision.gameObject.tag == "charge")
+        {
+            chargeCheck = true;
+        }
 
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        chargeCheck = false;
+        if (collision.gameObject.tag == "charge")
+        {
+            chargeCheck = false;
+        }
     }
 
     public int GetBattery()
