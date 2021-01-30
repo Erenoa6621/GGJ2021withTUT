@@ -7,17 +7,18 @@ using TMPro;
 public class GameUI : MonoBehaviour
 {
     [SerializeField] GameObject objMobile;
+    [SerializeField] GameObject objEffect;
     [SerializeField] TextMeshProUGUI tmproText;
     [SerializeField] Image objImage;
     [SerializeField] int lowPower;
+    [SerializeField] int middlePower;
     [SerializeField] GameObject objPlayer;
 
     // Start is called before the first frame update
     void Start()
     {
-        SetGauge(200);
-
         objMobile.SetActive(false);
+        objEffect.SetActive(true);
     }
 
     // Update is called once per frame
@@ -49,6 +50,10 @@ public class GameUI : MonoBehaviour
         if(power <= lowPower)
         {
             objImage.color = new Color(1.0f, 0.0f, 0.0f, 1.0f);
+        }
+        else if(power < middlePower)
+        {
+            objImage.color = new Color(1.0f, 1.0f, 0.0f, 1.0f);
         }
         else
         {
