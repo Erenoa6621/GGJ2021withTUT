@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerSystem : MonoBehaviour
 {
@@ -75,6 +76,10 @@ public class PlayerSystem : MonoBehaviour
         {
             enemyTouch = true;
         }
+        if (collision.gameObject.tag == "Goal")
+        {
+            SceneManager.LoadScene("Clear");
+        }
 
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -87,6 +92,7 @@ public class PlayerSystem : MonoBehaviour
         {
             enemyTouch = false;
         }
+
     }
 
     public int GetBattery()
