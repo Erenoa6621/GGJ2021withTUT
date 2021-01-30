@@ -9,6 +9,7 @@ public class GameUI : MonoBehaviour
     [SerializeField] GameObject objMobile;
     [SerializeField] GameObject objEffect;
     [SerializeField] GameObject objStressLevel;
+    [SerializeField] GameObject objPhoneOpen;
     [SerializeField] TextMeshProUGUI tmproText;
     [SerializeField] Image objImage;
     [SerializeField] int lowPower;
@@ -19,7 +20,7 @@ public class GameUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        objMobile.SetActive(false);
+        objMobile.SetActive(true);
         objEffect.SetActive(true);
     }
 
@@ -33,10 +34,12 @@ public class GameUI : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) && battery > 0)
         {
             objMobile.SetActive(true);
+            objPhoneOpen.GetComponent<Animator>().SetBool("iSHoldingSpace", true);
         }
         if(Input.GetKeyUp(KeyCode.Space) || battery <= 0)
         {
-            objMobile.SetActive(false);
+            objMobile.SetActive(true);
+            objPhoneOpen.GetComponent<Animator>().SetBool("iSHoldingSpace", false);
         }
     }
 
