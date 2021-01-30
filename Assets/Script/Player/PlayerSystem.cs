@@ -9,6 +9,7 @@ public class PlayerSystem : MonoBehaviour
     [SerializeField] int batteryLostSpeed = 10;
     [SerializeField] int batteryChargeSpeed = 10;
     [SerializeField] GameObject objMark;
+    public bool enemyTouch;
     private bool chargeCheck;
     private int charge;
     private int Lost;
@@ -70,6 +71,10 @@ public class PlayerSystem : MonoBehaviour
         {
             chargeCheck = true;
         }
+        if (collision.gameObject.tag == "Enemy")
+        {
+            enemyTouch = true;
+        }
 
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -77,6 +82,10 @@ public class PlayerSystem : MonoBehaviour
         if (collision.gameObject.tag == "charge")
         {
             chargeCheck = false;
+        }
+        if (collision.gameObject.tag == "Enemy")
+        {
+            enemyTouch = false;
         }
     }
 

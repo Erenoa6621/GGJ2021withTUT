@@ -7,8 +7,11 @@ public class TimarSystem : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] float maxTime = 200f;
+    [SerializeField] float enemyTouchDownTime;
+    [SerializeField] GameObject Player;
     public float nowTime;
     public Text timeText;
+    private bool enemyTouch;
 
     void Start()
     {
@@ -18,7 +21,17 @@ public class TimarSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        nowTime -= Time.deltaTime;
+        enemyTouch = Player.GetComponent<PlayerSystem>().enemyTouch;
+
+        if (enemyTouch == false)
+        {
+            nowTime -= Time.deltaTime;
+        }
+        else
+        {
+            nowTime -= Time.deltaTime * enemyTouchDownTime;
+        }
+
         timeText.text = nowTime.ToString("F2");
     }
 }
