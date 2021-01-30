@@ -27,11 +27,11 @@ public class GameUI : MonoBehaviour
         int battery = objPlayer.GetComponent<PlayerSystem>().GetBattery();
         SetGauge(battery);
 
-        if(Input.GetKeyDown(KeyCode.Return))
+        if(Input.GetKeyDown(KeyCode.Space))
         {
             objMobile.SetActive(true);
         }
-        if(Input.GetKeyUp(KeyCode.Return))
+        if(Input.GetKeyUp(KeyCode.Space))
         {
             objMobile.SetActive(false);
         }
