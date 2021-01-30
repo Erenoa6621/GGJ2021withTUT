@@ -7,6 +7,7 @@ using TMPro;
 public class GameUI : MonoBehaviour
 {
     [SerializeField] GameObject objMobile;
+    [SerializeField] GameObject objGameover;
     [SerializeField] GameObject objEffect;
     [SerializeField] GameObject objStressLevel;
     [SerializeField] GameObject objPhoneOpen;
@@ -21,12 +22,14 @@ public class GameUI : MonoBehaviour
     void Start()
     {
         objMobile.SetActive(true);
+        objGameover.SetActive(false);
         objEffect.SetActive(true);
     }
 
     // Update is called once per frame
     void Update()
     {
+        objGameover.SetActive(false);
         // バッテリー更新
         int battery = objPlayer.GetComponent<PlayerSystem>().GetBattery();
         SetGauge(battery);
