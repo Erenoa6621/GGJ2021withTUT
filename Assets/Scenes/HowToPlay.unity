@@ -888,5 +888,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6681110599020715497, guid: 27151fad5df435c47948b62318dda5fc,
+        type: 3}
+      propertyPath: m_text
+      value: "\u30EB\u30FC\u30EB\uFF11\uFF1A\u5341\u5B57\u30AD\u30FC\u3067\u79FB\u52D5\r\r\n\u30EB\u30FC\u30EB\uFF12\uFF1A\u30B9\u30DA\u30FC\u30B9\u30AD\u30FC\u3067\u643A\u5E2F\u306E\u30DE\u30C3\u30D7\u78BA\u8A8D\r\n\u30EB\u30FC\u30EB\uFF13\uFF1A\u30C1\u30E3\u30FC\u30B8\u30B7\u30E7\u30C3\u30D7\u306E\u4E2D\u3067\u5145\u96FB\uFF01\r\r\n\u30EB\u30FC\u30EB\uFF14\uFF1A\u30C8\u30E9\u30C3\u30D7\u3092\u8E0F\u3080\u3068\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC\r\r\n\u203B\u6B69\u304D\u30B9\u30DE\u30DB\u7981\u6B62\uFF01"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681110599020715497, guid: 27151fad5df435c47948b62318dda5fc,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
+        type: 2}
+    - target: {fileID: 6681110599020715497, guid: 27151fad5df435c47948b62318dda5fc,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6681110599020715497, guid: 27151fad5df435c47948b62318dda5fc,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681110599020715497, guid: 27151fad5df435c47948b62318dda5fc,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681110599020715497, guid: 27151fad5df435c47948b62318dda5fc,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681110599020715497, guid: 27151fad5df435c47948b62318dda5fc,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 91
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27151fad5df435c47948b62318dda5fc, type: 3}
