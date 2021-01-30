@@ -342,7 +342,7 @@ MonoBehaviour:
   battery: 1000
   batteryLostSpeed: 10
   batteryChargeSpeed: 10
-  objMark: {fileID: 0}
+  objMark: {fileID: 5605648368590301235}
 --- !u!61 &727545895778418966
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -686,6 +686,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 711ac13430c0f2a4f8253051758448b4, type: 3}
+--- !u!1 &5605648368590301235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7673311660387166994, guid: 711ac13430c0f2a4f8253051758448b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 2861570481636492065}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8370008572609838068 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6025369084744300757, guid: 711ac13430c0f2a4f8253051758448b4,
