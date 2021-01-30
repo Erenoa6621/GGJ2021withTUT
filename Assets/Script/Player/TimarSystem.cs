@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TimarSystem : MonoBehaviour
 {
@@ -32,6 +33,10 @@ public class TimarSystem : MonoBehaviour
             nowTime -= Time.deltaTime * enemyTouchDownTime;
         }
 
+        if (nowTime < 0)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
         timeText.text = nowTime.ToString("F2");
     }
 }
