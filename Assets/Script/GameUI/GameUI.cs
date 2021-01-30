@@ -24,6 +24,7 @@ public class GameUI : MonoBehaviour
         objMobile.SetActive(true);
         objGameover.SetActive(false);
         objEffect.SetActive(true);
+        objPhoneOpen.GetComponent<Animator>().SetBool("iSHoldingSpace", false);
     }
 
     // Update is called once per frame
