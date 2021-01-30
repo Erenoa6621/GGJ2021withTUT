@@ -277,6 +277,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4781978278622848476, guid: be131071f79854e438325afa768bf10b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 248.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 4781978278622848476, guid: be131071f79854e438325afa768bf10b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 37.078
+      objectReference: {fileID: 0}
     - target: {fileID: 6161948250674146456, guid: be131071f79854e438325afa768bf10b,
         type: 3}
       propertyPath: m_Name
@@ -385,6 +395,41 @@ PrefabInstance:
     - target: {fileID: 6161948250674146460, guid: be131071f79854e438325afa768bf10b,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6161948250674146462, guid: be131071f79854e438325afa768bf10b,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6161948250674146462, guid: be131071f79854e438325afa768bf10b,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 6161948250674146462, guid: be131071f79854e438325afa768bf10b,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 6161948251222658231, guid: be131071f79854e438325afa768bf10b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1742.3813
+      objectReference: {fileID: 0}
+    - target: {fileID: 6161948251222658231, guid: be131071f79854e438325afa768bf10b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 980.0896
+      objectReference: {fileID: 0}
+    - target: {fileID: 6161948251222658231, guid: be131071f79854e438325afa768bf10b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6161948251222658231, guid: be131071f79854e438325afa768bf10b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
