@@ -513,11 +513,11 @@ SpriteRenderer:
   m_SortingOrder: 2
   m_Sprite: {fileID: 6241387596410090944, guid: 7ab313e390efaa1459fe14cea368fc40,
     type: 3}
-  m_Color: {r: 0, g: 0.28248885, b: 0.6037736, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.8, y: 1.3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
