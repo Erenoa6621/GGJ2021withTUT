@@ -57,4 +57,9 @@ public class PlayerSystem : MonoBehaviour
     {
         chargeCheck = false;
     }
+
+    public int GetBattery()
+    {
+        return battery;
+    }
 }
