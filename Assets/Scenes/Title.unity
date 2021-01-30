@@ -390,6 +390,24 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 6537567939607371914}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1670689584 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6537567938677680556, guid: 4442d047cdbf57a49a2fd33e69c0df98,
+    type: 3}
+  m_PrefabInstance: {fileID: 6537567939607371914}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1670689585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670689584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c5d5297cb6d8742b86bcb71cf6ca95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1929358893 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8925803217736290287, guid: 8f86d1c8a81ebba4b833b72cb9a22af5,
