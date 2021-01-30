@@ -280,6 +280,21 @@ PrefabInstance:
       propertyPath: m_TagString
       value: charge
       objectReference: {fileID: 0}
+    - target: {fileID: 7145206177966736436, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7145206177966736436, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7145206177966736436, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0c70417b8577b44a8705e8d7ac7c648, type: 3}
 --- !u!1 &128892673
@@ -899,6 +914,21 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7145206177966736436, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7145206177966736436, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7145206177966736436, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0c70417b8577b44a8705e8d7ac7c648, type: 3}
 --- !u!1001 &660340527
@@ -1373,6 +1403,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: charge
+      objectReference: {fileID: 0}
+    - target: {fileID: 7145206177966736436, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7145206177966736436, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7145206177966736436, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0c70417b8577b44a8705e8d7ac7c648, type: 3}
@@ -2477,6 +2522,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5032419177560178064, guid: dae0c3b0dac298548ac3c24dbab77d8b,
         type: 3}
+      propertyPath: objMark
+      value: 
+      objectReference: {fileID: 3759107775597181764}
+    - target: {fileID: 5032419177560178064, guid: dae0c3b0dac298548ac3c24dbab77d8b,
+        type: 3}
       propertyPath: batteryLostSpeed
       value: 3
       objectReference: {fileID: 0}
@@ -2485,6 +2535,21 @@ PrefabInstance:
       propertyPath: batteryChargeSpeed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8370008572609838068, guid: dae0c3b0dac298548ac3c24dbab77d8b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008572609838068, guid: dae0c3b0dac298548ac3c24dbab77d8b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008572609838068, guid: dae0c3b0dac298548ac3c24dbab77d8b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 9173430762893809285, guid: dae0c3b0dac298548ac3c24dbab77d8b,
         type: 3}
       propertyPath: PlayerAni
@@ -2492,6 +2557,12 @@ PrefabInstance:
       objectReference: {fileID: 1045960551}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dae0c3b0dac298548ac3c24dbab77d8b, type: 3}
+--- !u!1 &3759107775597181764 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5605648368590301235, guid: dae0c3b0dac298548ac3c24dbab77d8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 3759107775597181763}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8996911342536055590
 PrefabInstance:
   m_ObjectHideFlags: 0
