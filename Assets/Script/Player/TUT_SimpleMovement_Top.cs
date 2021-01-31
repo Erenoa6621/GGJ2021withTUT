@@ -8,6 +8,7 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 lastPos;
     private bool judgeGameOver;
+    private bool spaceEnter = false;
     [SerializeField] private float speed = 10f;
     [SerializeField] GameObject Timer;
     public GameObject[] hit;
@@ -38,14 +39,17 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
 
         if (judgeGameOver == false)
         {
-            Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-            //playerInput.Player.Move.ReadValue<Vector2>();
+            if (spaceEnter == false)
+            {
+                Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+                //playerInput.Player.Move.ReadValue<Vector2>();
 
-            rb.velocity = moveInput * speed;
-            if (moveInput.x >= 0)
-                lookingRight = true;
-            else
-                lookingRight = false;
+                rb.velocity = moveInput * speed;
+                if (moveInput.x >= 0)
+                    lookingRight = true;
+                else
+                    lookingRight = false;
+            }
         }
 
     }
@@ -56,30 +60,37 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
 
         if (judgeGameOver == false)
         {
-
-            for (int i = 0; i < hit.Length; i++)
+            if (spaceEnter == false)
             {
-                canMove = hit[i].GetComponent<loadAut>().loadLost;
-                if (canMove == true)
+
+                for (int i = 0; i < hit.Length; i++)
                 {
-                    break;
+                    canMove = hit[i].GetComponent<loadAut>().loadLost;
+                    if (canMove == true)
+                    {
+                        break;
+                    }
                 }
-            }
 
-            if (canMove == false)
-            {
-                Vector3 localScale = transform.localScale;
-                if (lookingRight)
+                if (canMove == false)
                 {
-                    localScale.x = -Mathf.Abs(this.gameObject.transform.localScale.x);
+                    Vector3 localScale = transform.localScale;
+                    if (lookingRight)
+                    {
+                        localScale.x = -Mathf.Abs(this.gameObject.transform.localScale.x);
+                    }
+                    else
+                    {
+                        localScale.x = Mathf.Abs(this.gameObject.transform.localScale.x);
+                    }
+                    transform.localScale = localScale;
+
+                    lastPos = gameObject.transform.position;
                 }
                 else
                 {
-                    localScale.x = Mathf.Abs(this.gameObject.transform.localScale.x);
+                    this.gameObject.transform.position = lastPos;
                 }
-                transform.localScale = localScale;
-
-                lastPos = gameObject.transform.position;
             }
             else
             {
@@ -89,6 +100,15 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
         else
         {
             this.gameObject.transform.position = new Vector3(0,0,0);
-        } 
+        }
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            spaceEnter = true;
+        }
+        else
+        {
+            spaceEnter = false;
+        }
     }
 }
