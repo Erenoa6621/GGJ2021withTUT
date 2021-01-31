@@ -18,7 +18,8 @@ public class Title : MonoBehaviour
         {
             SceneManager.LoadScene("Credits");
         }
-        else if (Input.anyKeyDown)
+        else if (Input.GetKeyUp(KeyCode.Space)
+            || Input.GetKeyUp(KeyCode.Return))
         {
             SceneManager.LoadScene("Introduction");
         }
