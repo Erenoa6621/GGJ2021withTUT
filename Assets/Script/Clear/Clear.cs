@@ -17,7 +17,17 @@ public class Clear : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Space)
             || Input.GetKeyUp(KeyCode.Return))
         {
-            SceneManager.LoadScene("Credits");
+            int stageNo = PlayerPrefs.GetInt("STAGE");
+            if(stageNo == 0)
+            {
+                PlayerPrefs.SetInt("STAGE", 1);
+                PlayerPrefs.Save();
+                SceneManager.LoadScene("Stage1_full3");
+            }
+            else
+            {
+                SceneManager.LoadScene("Credits");
+            }
         }
     }
 }
