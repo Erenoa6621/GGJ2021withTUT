@@ -27,7 +27,12 @@ public class GameUI : MonoBehaviour
         objMobile.SetActive(true);
         objGameover.SetActive(false);
         objEffect.SetActive(true);
+
         objPhoneOpen.GetComponent<Animator>().SetBool("iSHoldingSpace", false);
+
+        objTrap.SetActive(true);
+        objTrap.GetComponent<Animator>().SetBool("MetFriend", false);
+        objTrap.SetActive(false);
     }
 
     // Update is called once per frame
@@ -42,8 +47,29 @@ public class GameUI : MonoBehaviour
         float nowTimer = objTimer.GetComponent<TimarSystem>().GetNowTime();
         tmproTimer.text = nowTimer.ToString();
 
+        // トラップ踏んだ？
+        bool isTrap = objTimer.GetComponent<TimarSystem>().IsEnemyTouch();
+        if(Input.GetKey(KeyCode.Return))
+        {
+            isTrap = true;
+        }
+        //if(Input.GetKey(KeyCode.A))
+        //{
+        //    isTrap = false;
+        //}
+        if(isTrap == true)
+        {
+            objTrap.SetActive(true);
+            objTrap.GetComponent<Animator>().SetBool("MetFriend", true);
+        }
+        else
+        {
+            objTrap.GetComponent<Animator>().SetBool("MetFriend", false);
+            objTrap.SetActive(false);
+        }
+
         // スマホオープン、クローズ
-        if(Input.GetKeyDown(KeyCode.Space) && battery > 0)
+        if (Input.GetKeyDown(KeyCode.Space) && battery > 0)
         {
             objMobile.SetActive(true);
             objPhoneOpen.GetComponent<Animator>().SetBool("iSHoldingSpace", true);
