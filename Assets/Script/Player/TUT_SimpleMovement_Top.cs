@@ -81,7 +81,7 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
 
                 if (canMove == false)
                 {
-                    Vector3 localScale = transform.localScale;
+               /*     Vector3 localScale = transform.localScale;
                     if (lookingRight)
                     {
                         localScale.x = -Mathf.Abs(this.gameObject.transform.localScale.x);
@@ -90,7 +90,7 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
                     {
                         localScale.x = Mathf.Abs(this.gameObject.transform.localScale.x);
                     }
-                    transform.localScale = localScale;
+                    transform.localScale = localScale;*/
 
                     lastPos = gameObject.transform.position;
                 }
@@ -108,7 +108,7 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
         }
         else
         {
-            this.gameObject.transform.position = new Vector3(0,0,0);
+            this.gameObject.transform.position = lastPos;
         }
 
         if (Input.GetKey(KeyCode.Space))
