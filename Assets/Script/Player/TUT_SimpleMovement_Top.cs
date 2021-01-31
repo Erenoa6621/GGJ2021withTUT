@@ -86,5 +86,9 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
                 this.gameObject.transform.position = lastPos;
             }
         }
+        else
+        {
+            this.gameObject.transform.position = new Vector3(0,0,0);
+        } 
     }
 }
