@@ -32,7 +32,7 @@ public class GameUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        objGameover.SetActive(false);
+       // objGameover.SetActive(false);
         // バッテリー更新
         int battery = objPlayer.GetComponent<PlayerSystem>().GetBattery();
         SetGauge(battery);
