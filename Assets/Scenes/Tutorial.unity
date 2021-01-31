@@ -4468,7 +4468,7 @@ PrefabInstance:
     - target: {fileID: 5996315041485747643, guid: bf96b2afc9fd3684ea681642158b4ab3,
         type: 3}
       propertyPath: enemyTouchDownTime
-      value: 100
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7032362708909858903, guid: bf96b2afc9fd3684ea681642158b4ab3,
         type: 3}
