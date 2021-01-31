@@ -66293,5 +66293,10 @@ PrefabInstance:
       propertyPath: meetFrend
       value: 
       objectReference: {fileID: 8300000, guid: f95063178ed16444ebb92a4c277a717b, type: 3}
+    - target: {fileID: 9173430762893809285, guid: dae0c3b0dac298548ac3c24dbab77d8b,
+        type: 3}
+      propertyPath: walkSe
+      value: 
+      objectReference: {fileID: 8300000, guid: d16da130bbfb38a4ea32efe72375376b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dae0c3b0dac298548ac3c24dbab77d8b, type: 3}
