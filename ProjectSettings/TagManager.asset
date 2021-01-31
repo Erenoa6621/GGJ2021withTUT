@@ -9,6 +9,8 @@ TagManager:
   - charge
   - batterytext
   - OnlyAppearOnMAP
+  - Enemy
+  - Goal
   layers:
   - Default
   - TransparentFX
