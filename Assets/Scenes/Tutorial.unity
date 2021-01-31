@@ -513,6 +513,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 902986909799845226, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 902986909799845226, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1837293437
+      objectReference: {fileID: 0}
+    - target: {fileID: 3872372851076480059, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3872372851076480059, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1837293437
+      objectReference: {fileID: 0}
     - target: {fileID: 4176176878610951383, guid: f0c70417b8577b44a8705e8d7ac7c648,
         type: 3}
       propertyPath: m_Name
@@ -6679,6 +6699,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 902986909799845226, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 902986909799845226, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1837293437
+      objectReference: {fileID: 0}
+    - target: {fileID: 3872372851076480059, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3872372851076480059, guid: f0c70417b8577b44a8705e8d7ac7c648,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1837293437
       objectReference: {fileID: 0}
     - target: {fileID: 4176176878610951383, guid: f0c70417b8577b44a8705e8d7ac7c648,
         type: 3}
