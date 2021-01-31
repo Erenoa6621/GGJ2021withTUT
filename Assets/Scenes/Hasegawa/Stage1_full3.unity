@@ -3709,6 +3709,11 @@ PrefabInstance:
       propertyPath: objStressLevel
       value: 
       objectReference: {fileID: 1000948153}
+    - target: {fileID: 5996315041485747643, guid: bf96b2afc9fd3684ea681642158b4ab3,
+        type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1025490710}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf96b2afc9fd3684ea681642158b4ab3, type: 3}
 --- !u!95 &1045960551 stripped
