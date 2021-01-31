@@ -347,6 +347,7 @@ MonoBehaviour:
   batteryChargeSpeed: 1
   objMark: {fileID: 5605648368590301235}
   ChargeSe: {fileID: 8300000, guid: 8fd8c72e55e4ce848a5409372379df50, type: 3}
+  meetFrend: {fileID: 8300000, guid: f95063178ed16444ebb92a4c277a717b, type: 3}
   enemyTouch: 0
 --- !u!61 &727545895778418966
 BoxCollider2D:
