@@ -46,4 +46,9 @@ public class TimarSystem : MonoBehaviour
     {
         return nowTime;
     }
+
+    public bool IsEnemyTouch()
+    {
+        return enemyTouch;
+    }
 }
