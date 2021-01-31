@@ -4144,6 +4144,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5188436940456016, guid: bf96b2afc9fd3684ea681642158b4ab3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5188436940456020, guid: bf96b2afc9fd3684ea681642158b4ab3, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4235,6 +4239,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1946944619125163842, guid: bf96b2afc9fd3684ea681642158b4ab3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1946944619125163846, guid: bf96b2afc9fd3684ea681642158b4ab3,
         type: 3}
@@ -4434,7 +4443,7 @@ PrefabInstance:
     - target: {fileID: 5996315041485747643, guid: bf96b2afc9fd3684ea681642158b4ab3,
         type: 3}
       propertyPath: maxTime
-      value: 10
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 7032362708909858903, guid: bf96b2afc9fd3684ea681642158b4ab3,
         type: 3}
@@ -5288,7 +5297,7 @@ PrefabInstance:
     - target: {fileID: 1972520626104303368, guid: 17af8c607448a204eb6bfa1520a405f5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -100
+      value: -140
       objectReference: {fileID: 0}
     - target: {fileID: 1972520626104303368, guid: 17af8c607448a204eb6bfa1520a405f5,
         type: 3}
