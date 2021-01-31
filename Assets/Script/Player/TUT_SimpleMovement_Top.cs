@@ -7,20 +7,27 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
     //private PlayerInput playerInput;
     private Rigidbody2D rb;
     private Vector2 lastPos;
+    private bool seOn;
+    private bool seWait;
     private bool judgeGameOver;
     private bool spaceEnter = false;
+    private int seTime = 0;
     [SerializeField] private float speed = 10f;
     [SerializeField] GameObject Timer;
     public GameObject[] hit;
+    public AudioClip collisionSe;
 
+    AudioSource audioSource;
     bool lookingRight = false;
     bool canMove = false;
+
 
     // Start is called before the first frame update
     void Awake()
     {
         //playerInput = new PlayerInput();
         rb = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // private void OnEnable()
@@ -90,11 +97,13 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
                 else
                 {
                     this.gameObject.transform.position = lastPos;
+                    seOn = true;
                 }
             }
             else
             {
                 this.gameObject.transform.position = lastPos;
+               
             }
         }
         else
@@ -109,6 +118,22 @@ public class TUT_SimpleMovement_Top : MonoBehaviour
         else
         {
             spaceEnter = false;
+        }
+
+        if (seOn == true)
+        {
+            if (seWait == true)
+            {
+                audioSource.PlayOneShot(collisionSe);
+                seTime = 30;
+                seWait = false;
+            }
+            else if (seTime < 0)
+            {
+                seWait = true;
+            }
+            seTime--;
+            seOn = false;
         }
     }
 }

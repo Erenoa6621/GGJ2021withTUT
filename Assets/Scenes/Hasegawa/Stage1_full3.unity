@@ -10818,6 +10818,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &314516133 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5996315041485747641, guid: bf96b2afc9fd3684ea681642158b4ab3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1037376167}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &318269403
 GameObject:
   m_ObjectHideFlags: 0
@@ -32547,12 +32553,6 @@ PrefabInstance:
       objectReference: {fileID: 1025490710}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf96b2afc9fd3684ea681642158b4ab3, type: 3}
---- !u!1 &1037376168 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5228621892736961274, guid: bf96b2afc9fd3684ea681642158b4ab3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1037376167}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1038355608
 GameObject:
   m_ObjectHideFlags: 0
@@ -63474,6 +63474,6 @@ PrefabInstance:
         type: 3}
       propertyPath: Timer
       value: 
-      objectReference: {fileID: 1037376168}
+      objectReference: {fileID: 314516133}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dae0c3b0dac298548ac3c24dbab77d8b, type: 3}
