@@ -137,7 +137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8607817}
   - component: {fileID: 8607818}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -218,7 +218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 22833473}
   - component: {fileID: 22833474}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -299,7 +299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 32810554}
   - component: {fileID: 32810555}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -380,7 +380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 40127864}
   - component: {fileID: 40127865}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -555,7 +555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 109542950}
   - component: {fileID: 109542951}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -636,7 +636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 128892674}
   - component: {fileID: 128892675}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -717,7 +717,7 @@ GameObject:
   m_Component:
   - component: {fileID: 134255781}
   - component: {fileID: 134255782}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -799,7 +799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 135888275}
   - component: {fileID: 135888276}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -881,7 +881,7 @@ GameObject:
   m_Component:
   - component: {fileID: 138737827}
   - component: {fileID: 138737828}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -962,7 +962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 143832774}
   - component: {fileID: 143832775}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1044,7 +1044,7 @@ GameObject:
   m_Component:
   - component: {fileID: 166042559}
   - component: {fileID: 166042560}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1126,7 +1126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 180232459}
   - component: {fileID: 180232460}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1208,7 +1208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 187363311}
   - component: {fileID: 187363312}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1290,7 +1290,7 @@ GameObject:
   m_Component:
   - component: {fileID: 212029959}
   - component: {fileID: 212029960}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1372,7 +1372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 231210906}
   - component: {fileID: 231210907}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1460,7 +1460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 248878424}
   - component: {fileID: 248878425}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1639,7 +1639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 296344246}
   - component: {fileID: 296344247}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1721,7 +1721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 301077198}
   - component: {fileID: 301077199}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1803,7 +1803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 310078239}
   - component: {fileID: 310078240}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1885,7 +1885,7 @@ GameObject:
   m_Component:
   - component: {fileID: 313239739}
   - component: {fileID: 313239740}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1966,7 +1966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 331142694}
   - component: {fileID: 331142695}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2047,7 +2047,7 @@ GameObject:
   m_Component:
   - component: {fileID: 334024791}
   - component: {fileID: 334024792}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2223,7 +2223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 363665906}
   - component: {fileID: 363665907}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2305,7 +2305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 377188947}
   - component: {fileID: 377188948}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2387,7 +2387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 381493118}
   - component: {fileID: 381493119}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2467,7 +2467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400347109}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Houses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2552,7 +2552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 407931983}
   - component: {fileID: 407931984}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2633,7 +2633,7 @@ GameObject:
   m_Component:
   - component: {fileID: 409059833}
   - component: {fileID: 409059834}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2715,7 +2715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 437857191}
   - component: {fileID: 437857192}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2796,7 +2796,7 @@ GameObject:
   m_Component:
   - component: {fileID: 444366856}
   - component: {fileID: 444366857}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2877,7 +2877,7 @@ GameObject:
   m_Component:
   - component: {fileID: 460727171}
   - component: {fileID: 460727172}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2958,7 +2958,7 @@ GameObject:
   m_Component:
   - component: {fileID: 492107858}
   - component: {fileID: 492107859}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3039,7 +3039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 495085866}
   - component: {fileID: 495085867}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3121,7 +3121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 506111011}
   - component: {fileID: 506111012}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3202,7 +3202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 516763411}
   - component: {fileID: 516763412}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3283,7 +3283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 525604000}
   - component: {fileID: 525604001}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3365,7 +3365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 528628501}
   - component: {fileID: 528628502}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3453,7 +3453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 574739395}
   - component: {fileID: 574739396}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3535,7 +3535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 589305599}
   - component: {fileID: 589305600}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3706,7 +3706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 617853558}
   - component: {fileID: 617853559}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3788,7 +3788,7 @@ GameObject:
   m_Component:
   - component: {fileID: 618952481}
   - component: {fileID: 618952482}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3875,7 +3875,7 @@ GameObject:
   m_Component:
   - component: {fileID: 637881681}
   - component: {fileID: 637881682}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4065,7 +4065,7 @@ GameObject:
   m_Component:
   - component: {fileID: 658675929}
   - component: {fileID: 658675930}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4458,7 +4458,7 @@ GameObject:
   m_Component:
   - component: {fileID: 676420028}
   - component: {fileID: 676420029}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4538,7 +4538,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 695790597}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4620,7 +4620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 696196798}
   - component: {fileID: 696196799}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4702,7 +4702,7 @@ GameObject:
   m_Component:
   - component: {fileID: 715236200}
   - component: {fileID: 715236201}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4784,7 +4784,7 @@ GameObject:
   m_Component:
   - component: {fileID: 736755750}
   - component: {fileID: 736755751}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4866,7 +4866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 755191132}
   - component: {fileID: 755191133}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4947,7 +4947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 800645220}
   - component: {fileID: 800645221}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5029,7 +5029,7 @@ GameObject:
   m_Component:
   - component: {fileID: 826244609}
   - component: {fileID: 826244610}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5110,7 +5110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 866154120}
   - component: {fileID: 866154121}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5192,7 +5192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 888385072}
   - component: {fileID: 888385073}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5423,7 +5423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 935411835}
   - component: {fileID: 935411836}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5505,7 +5505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 955914296}
   - component: {fileID: 955914297}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5593,7 +5593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 966850299}
   - component: {fileID: 966850300}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5674,7 +5674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 991809717}
   - component: {fileID: 991809718}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5799,7 +5799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1035293359}
   - component: {fileID: 1035293360}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5880,7 +5880,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1047212860}
   - component: {fileID: 1047212861}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5962,7 +5962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1086350424}
   - component: {fileID: 1086350425}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6043,7 +6043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1119788560}
   - component: {fileID: 1119788561}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6125,7 +6125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1134624416}
   - component: {fileID: 1134624417}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6206,7 +6206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1142824659}
   - component: {fileID: 1142824660}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6288,7 +6288,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1151990835}
   - component: {fileID: 1151990836}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6370,7 +6370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1152817676}
   - component: {fileID: 1152817677}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6451,7 +6451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1163923426}
   - component: {fileID: 1163923427}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6533,7 +6533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1165917214}
   - component: {fileID: 1165917215}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6708,7 +6708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1195799844}
   - component: {fileID: 1195799845}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6789,7 +6789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1200040097}
   - component: {fileID: 1200040098}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6870,7 +6870,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1206077416}
   - component: {fileID: 1206077417}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6957,7 +6957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1253347589}
   - component: {fileID: 1253347590}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7038,7 +7038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1299728083}
   - component: {fileID: 1299728084}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7120,7 +7120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1335396601}
   - component: {fileID: 1335396602}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7202,7 +7202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1361347015}
   - component: {fileID: 1361347016}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7284,7 +7284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1379748716}
   - component: {fileID: 1379748717}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7365,7 +7365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1394657195}
   - component: {fileID: 1394657196}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7446,7 +7446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1402989619}
   - component: {fileID: 1402989620}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7596,7 +7596,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1419094589}
   - component: {fileID: 1419094590}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7689,7 +7689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1486345393}
   - component: {fileID: 1486345394}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7770,7 +7770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1498323431}
   - component: {fileID: 1498323432}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7851,7 +7851,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1498908182}
   - component: {fileID: 1498908183}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7957,7 +7957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1531601856}
   - component: {fileID: 1531601857}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8128,7 +8128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1549162926}
   - component: {fileID: 1549162927}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8210,7 +8210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1574331591}
   - component: {fileID: 1574331592}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8291,7 +8291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1585167949}
   - component: {fileID: 1585167950}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8511,7 +8511,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1635739195}
   - component: {fileID: 1635739196}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8592,7 +8592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1638170284}
   - component: {fileID: 1638170285}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8673,7 +8673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1671663438}
   - component: {fileID: 1671663439}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8775,7 +8775,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1696168150}
   - component: {fileID: 1696168151}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8857,7 +8857,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1709455892}
   - component: {fileID: 1709455893}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8944,7 +8944,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1725471964}
   - component: {fileID: 1725471965}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9025,7 +9025,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1749240093}
   - component: {fileID: 1749240094}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9106,7 +9106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1757880260}
   - component: {fileID: 1757880261}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9288,7 +9288,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1821508905}
   - component: {fileID: 1821508906}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9438,7 +9438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1851623211}
   - component: {fileID: 1851623212}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9520,7 +9520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1854164171}
   - component: {fileID: 1854164172}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9602,7 +9602,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1867901131}
   - component: {fileID: 1867901132}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9683,7 +9683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1869018028}
   - component: {fileID: 1869018029}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9765,7 +9765,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1884984213}
   - component: {fileID: 1884984214}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9846,7 +9846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1885063384}
   - component: {fileID: 1885063385}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9997,7 +9997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1936808708}
   - component: {fileID: 1936808709}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10079,7 +10079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1950632962}
   - component: {fileID: 1950632963}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10345,7 +10345,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2036028357}
   - component: {fileID: 2036028358}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10426,7 +10426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2040365079}
   - component: {fileID: 2040365080}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10514,7 +10514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2064879272}
   - component: {fileID: 2064879273}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10595,7 +10595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2082940957}
   - component: {fileID: 2082940958}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Strangers_0 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10954,7 +10954,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2135002722}
   - component: {fileID: 2135002723}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HouseObj (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
