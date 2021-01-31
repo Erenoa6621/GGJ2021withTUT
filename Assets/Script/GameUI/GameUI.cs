@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameUI : MonoBehaviour
 {
@@ -104,6 +105,13 @@ public class GameUI : MonoBehaviour
             else if(dispSkipTimer >= dispSkipSpan * 2.0f)
             {
                 dispSkipTimer -= dispSkipSpan * 2.0f;
+            }
+
+            if(Input.GetKeyDown(KeyCode.P))
+            {
+                PlayerPrefs.SetInt("STAGE", 1);
+                PlayerPrefs.Save();
+                SceneManager.LoadScene("Stage1_full3");
             }
         }
     }
