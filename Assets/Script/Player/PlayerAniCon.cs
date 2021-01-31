@@ -5,32 +5,60 @@ using UnityEngine;
 public class PlayerAniCon : MonoBehaviour
 {
     public Animator PlayerAni;
+    public AudioClip walkSe;
+    AudioSource audioSource;
+    private int seTime = 60;
+    private bool seOn;
+    private bool seWait;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             PlayerAni.SetTrigger("TrueRight");
+            seOn = true;
         }
-        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        else if (Input.GetKey(KeyCode.LeftArrow))
         {
             PlayerAni.SetTrigger("TrueLeft");
+            seOn = true;
         }
-        else if (Input.GetKeyDown(KeyCode.UpArrow))
+        else if (Input.GetKey(KeyCode.UpArrow))
         {
             PlayerAni.SetTrigger("Up");
+            seOn = true;
         }
-        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        else if (Input.GetKey(KeyCode.DownArrow))
         {
             PlayerAni.SetTrigger("Down_Left");
+            seOn = true;
         }
 
-
+        if (seOn == true)
+        {
+            if (seWait == true)
+            {
+                audioSource.PlayOneShot(walkSe);
+                seTime = 120;
+                seWait = false;
+            }
+            else if (seTime < 0)
+            {
+                seWait = true;
+            }
+            seTime--;
+            seOn = false;
+        }
     }
+
+   
+
+
 }
