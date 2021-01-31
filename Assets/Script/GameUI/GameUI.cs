@@ -39,7 +39,7 @@ public class GameUI : MonoBehaviour
 
         // タイマー更新
         float nowTimer = objTimer.GetComponent<TimarSystem>().GetNowTime();
-        tmproTimer.text = "<" + nowTimer.ToString() + ">";
+        tmproTimer.text = nowTimer.ToString();
 
         // スマホオープン、クローズ
         if(Input.GetKeyDown(KeyCode.Space) && battery > 0)

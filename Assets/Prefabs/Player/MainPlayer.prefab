@@ -42,7 +42,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -114,7 +114,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -220,7 +220,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -300,7 +300,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4339cdcd74855d42818bdfb1ff73e0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 5
+  Timer: {fileID: 0}
   hit:
   - {fileID: 3759107774257877783}
   - {fileID: 3759107774231050971}
@@ -340,9 +341,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   battery: 1000
-  batteryLostSpeed: 10
-  batteryChargeSpeed: 10
+  batteryLostSpeed: 3
+  batteryChargeSpeed: 1
   objMark: {fileID: 5605648368590301235}
+  enemyTouch: 0
 --- !u!61 &727545895778418966
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -367,7 +369,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.3, y: 1.3}
   m_EdgeRadius: 0
 --- !u!1 &3759107775603499231
 GameObject:
@@ -411,7 +413,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -556,7 +558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5657d6841578e8044a47b8f860634d60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerAni: {fileID: 0}
+  PlayerAni: {fileID: 8681768703780230433}
 --- !u!1 &7304680070433461711
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,17 +619,17 @@ PrefabInstance:
     - target: {fileID: 6025369084744300757, guid: 711ac13430c0f2a4f8253051758448b4,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 70
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6025369084744300757, guid: 711ac13430c0f2a4f8253051758448b4,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 70
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6025369084744300757, guid: 711ac13430c0f2a4f8253051758448b4,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 70
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6025369084744300757, guid: 711ac13430c0f2a4f8253051758448b4,
         type: 3}
@@ -637,7 +639,7 @@ PrefabInstance:
     - target: {fileID: 6025369084744300757, guid: 711ac13430c0f2a4f8253051758448b4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6025369084744300757, guid: 711ac13430c0f2a4f8253051758448b4,
         type: 3}
@@ -683,6 +685,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MapMark_PLAYER
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673311660387166994, guid: 711ac13430c0f2a4f8253051758448b4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 711ac13430c0f2a4f8253051758448b4, type: 3}

@@ -60,7 +60,9 @@ public class ImageBoard : MonoBehaviour
         }
 
         // next scene
-        if (Input.anyKeyDown || isNext == true)
+        if (Input.GetKeyUp(KeyCode.Space)
+            || Input.GetKeyUp(KeyCode.Return)
+            || isNext == true)
         {
             SceneManager.LoadScene("HowToPlay");
         }

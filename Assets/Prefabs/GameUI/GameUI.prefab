@@ -379,6 +379,11 @@ PrefabInstance:
       propertyPath: m_textInfo.characterCount
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5830608619038818041, guid: 8fe6592e2e29d414bb559504ca2ab23a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8540861584435833706, guid: 8fe6592e2e29d414bb559504ca2ab23a,
         type: 3}
       propertyPath: m_textInfo.lineCount

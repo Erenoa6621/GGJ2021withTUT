@@ -14,7 +14,8 @@ public class Clear : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKeyDown)
+        if (Input.GetKeyUp(KeyCode.Space)
+            || Input.GetKeyUp(KeyCode.Return))
         {
             SceneManager.LoadScene("Credits");
         }
