@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/GameOver.unity
     guid: c901fd59e6d89994fb76af6f7bc9f6b4
+  - enabled: 1
+    path: Assets/Scenes/Hasegawa/Stage1_full3.unity
+    guid: d899d88deb7f8b3468d85ae58049d9bf
   m_configObjects: {}
