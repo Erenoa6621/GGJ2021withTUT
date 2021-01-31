@@ -44,6 +44,11 @@ public class PlayerAniCon : MonoBehaviour
             PlayerAni.SetFloat("Speed", 10f);
             seOn = true;
         }
+        if (seOn == false)
+        {
+            PlayerAni.SetFloat("Speed", 0f);
+        }
+
 
         if (seOn == true)
         {
