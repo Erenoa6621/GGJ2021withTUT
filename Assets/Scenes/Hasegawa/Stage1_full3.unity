@@ -64054,5 +64054,10 @@ PrefabInstance:
       propertyPath: Timer
       value: 
       objectReference: {fileID: 314516133}
+    - target: {fileID: 5032419177560178064, guid: dae0c3b0dac298548ac3c24dbab77d8b,
+        type: 3}
+      propertyPath: meetFrend
+      value: 
+      objectReference: {fileID: 8300000, guid: f95063178ed16444ebb92a4c277a717b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dae0c3b0dac298548ac3c24dbab77d8b, type: 3}
