@@ -99,4 +99,9 @@ public class PlayerSystem : MonoBehaviour
     {
         return battery;
     }
+
+    public bool IsEnemyTouch()
+    {
+        return enemyTouch;
+    }
 }

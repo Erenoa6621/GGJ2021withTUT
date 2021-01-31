@@ -53,6 +53,7 @@ MonoBehaviour:
   objEffect: {fileID: 5188436940456016}
   objStressLevel: {fileID: 5188437223842313}
   objPhoneOpen: {fileID: 2679595488303103571}
+  objTrap: {fileID: 7032362708909858903}
   tmproText: {fileID: 2679595487838743410}
   objImage: {fileID: 2679595487993206684}
   lowPower: 200
@@ -440,6 +441,12 @@ GameObject:
 --- !u!224 &2679595487701887080 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1464328333424654022, guid: 8fe6592e2e29d414bb559504ca2ab23a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3566150766259674798}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7032362708909858903 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5830608619038818041, guid: 8fe6592e2e29d414bb559504ca2ab23a,
     type: 3}
   m_PrefabInstance: {fileID: 3566150766259674798}
   m_PrefabAsset: {fileID: 0}
