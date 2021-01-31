@@ -12,11 +12,13 @@ public class TimarSystem : MonoBehaviour
     [SerializeField] GameObject Player;
     public float nowTime;
     public Text timeText;
+    public bool gameOver;
     private bool enemyTouch;
 
     void Start()
     {
         nowTime = maxTime;
+        gameOver = false;
     }
 
     // Update is called once per frame
@@ -35,7 +37,7 @@ public class TimarSystem : MonoBehaviour
 
         if (nowTime < 0)
         {
-            SceneManager.LoadScene("GameOver");
+            gameOver = true;
         }
         timeText.text = nowTime.ToString("F2");
     }
