@@ -1119,6 +1119,11 @@ PrefabInstance:
       propertyPath: maxTime
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 7032362708909858903, guid: bf96b2afc9fd3684ea681642158b4ab3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8706432950452521451, guid: bf96b2afc9fd3684ea681642158b4ab3,
         type: 3}
       propertyPath: m_IsActive
@@ -2165,7 +2170,7 @@ PrefabInstance:
     - target: {fileID: 7293282583739150242, guid: e57f0cfcf623d1d48a3dcbf3a7163f92,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -76.484375
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7293282583739150242, guid: e57f0cfcf623d1d48a3dcbf3a7163f92,
         type: 3}
@@ -2200,6 +2205,21 @@ PrefabInstance:
     - target: {fileID: 7293282583739150242, guid: e57f0cfcf623d1d48a3dcbf3a7163f92,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293282583739150243, guid: e57f0cfcf623d1d48a3dcbf3a7163f92,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293282583739150243, guid: e57f0cfcf623d1d48a3dcbf3a7163f92,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293282583739150243, guid: e57f0cfcf623d1d48a3dcbf3a7163f92,
+        type: 3}
+      propertyPath: m_SortingLayerID
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2592,7 +2612,7 @@ PrefabInstance:
     - target: {fileID: 5032419177560178064, guid: dae0c3b0dac298548ac3c24dbab77d8b,
         type: 3}
       propertyPath: batteryChargeSpeed
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8370008572609838068, guid: dae0c3b0dac298548ac3c24dbab77d8b,
         type: 3}
