@@ -39,4 +39,9 @@ public class TimarSystem : MonoBehaviour
         }
         timeText.text = nowTime.ToString("F2");
     }
+
+    public float GetNowTime()
+    {
+        return nowTime;
+    }
 }

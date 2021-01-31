@@ -17,6 +17,8 @@ public class GameUI : MonoBehaviour
     [SerializeField] int middlePower;
     [SerializeField] int midHightPower;
     [SerializeField] GameObject objPlayer;
+    [SerializeField] GameObject objTimer;
+    [SerializeField] TextMeshProUGUI tmproTimer;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +27,6 @@ public class GameUI : MonoBehaviour
         objGameover.SetActive(false);
         objEffect.SetActive(true);
         objPhoneOpen.GetComponent<Animator>().SetBool("iSHoldingSpace", false);
-
     }
 
     // Update is called once per frame
@@ -36,6 +37,11 @@ public class GameUI : MonoBehaviour
         int battery = objPlayer.GetComponent<PlayerSystem>().GetBattery();
         SetGauge(battery);
 
+        // タイマー更新
+        float nowTimer = objTimer.GetComponent<TimarSystem>().GetNowTime();
+        tmproTimer.text = "<" + nowTimer.ToString() + ">";
+
+        // スマホオープン、クローズ
         if(Input.GetKeyDown(KeyCode.Space) && battery > 0)
         {
             objMobile.SetActive(true);
