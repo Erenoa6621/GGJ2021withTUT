@@ -11,6 +11,7 @@ public class GameUI : MonoBehaviour
     [SerializeField] GameObject objEffect;
     [SerializeField] GameObject objStressLevel;
     [SerializeField] GameObject objPhoneOpen;
+    [SerializeField] GameObject objTrap;
     [SerializeField] TextMeshProUGUI tmproText;
     [SerializeField] Image objImage;
     [SerializeField] int lowPower;
