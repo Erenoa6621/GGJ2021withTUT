@@ -10,18 +10,25 @@ public class PlayerSystem : MonoBehaviour
     [SerializeField] int batteryLostSpeed = 10;
     [SerializeField] int batteryChargeSpeed = 10;
     [SerializeField] GameObject objMark;
+    public AudioClip ChargeSe;
+    public AudioClip meetFrend;
     public bool enemyTouch;
     private bool chargeCheck;
+    private bool seOn;
+    private bool seWait;
     private int charge;
     private int Lost;
+    private int seTime = 0;
     private GameObject objPlayer;
+    AudioSource audioSource;
+
     void Start()
     {
         chargeCheck = false;
         charge = batteryChargeSpeed;
         Lost = batteryLostSpeed;
         objPlayer = GameObject.Find("MainPlayer");
-
+        audioSource = GetComponent<AudioSource>();
         objMark.SetActive(false);
     }
 
@@ -49,6 +56,7 @@ public class PlayerSystem : MonoBehaviour
                 {
                     battery += 2;
                     charge = batteryChargeSpeed;
+                    seOn = true;
                 }
             }
             charge--;
@@ -64,6 +72,22 @@ public class PlayerSystem : MonoBehaviour
             objMark.SetActive(false);
         }
 
+        if (seOn == true)
+        {
+            if (seWait == true)
+            {
+                audioSource.PlayOneShot(ChargeSe);
+                seTime = 60;
+                seWait = false;
+            }
+            else if (seTime < 0)
+            {
+                seWait = true;
+            }
+            seTime--;
+            seOn = false;
+        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -75,6 +99,7 @@ public class PlayerSystem : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             enemyTouch = true;
+            audioSource.PlayOneShot(meetFrend);
         }
         if (collision.gameObject.tag == "Goal")
         {
