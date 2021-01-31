@@ -301,6 +301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  Timer: {fileID: 0}
   hit:
   - {fileID: 3759107774257877783}
   - {fileID: 3759107774231050971}
@@ -343,6 +344,7 @@ MonoBehaviour:
   batteryLostSpeed: 10
   batteryChargeSpeed: 10
   objMark: {fileID: 5605648368590301235}
+  enemyTouch: 0
 --- !u!61 &727545895778418966
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -637,7 +639,7 @@ PrefabInstance:
     - target: {fileID: 6025369084744300757, guid: 711ac13430c0f2a4f8253051758448b4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 6025369084744300757, guid: 711ac13430c0f2a4f8253051758448b4,
         type: 3}
@@ -683,6 +685,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MapMark_PLAYER
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673311660387166994, guid: 711ac13430c0f2a4f8253051758448b4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 711ac13430c0f2a4f8253051758448b4, type: 3}
