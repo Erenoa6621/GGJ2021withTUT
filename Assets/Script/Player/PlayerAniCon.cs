@@ -23,21 +23,25 @@ public class PlayerAniCon : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow))
         {
             PlayerAni.SetTrigger("TrueRight");
+            PlayerAni.SetFloat("Speed",10f);
             seOn = true;
         }
-        else if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             PlayerAni.SetTrigger("TrueLeft");
+            PlayerAni.SetFloat("Speed", 10f);
             seOn = true;
         }
-        else if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
             PlayerAni.SetTrigger("Up");
+            PlayerAni.SetFloat("Speed", 10f);
             seOn = true;
         }
-        else if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow))
         {
             PlayerAni.SetTrigger("Down_Left");
+            PlayerAni.SetFloat("Speed", 10f);
             seOn = true;
         }
 
