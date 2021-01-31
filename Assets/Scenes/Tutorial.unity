@@ -11235,6 +11235,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 3759107774877746267, guid: dae0c3b0dac298548ac3c24dbab77d8b,
+        type: 3}
+      propertyPath: Timer
+      value: 
+      objectReference: {fileID: 1224781046}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dae0c3b0dac298548ac3c24dbab77d8b, type: 3}
 --- !u!1001 &8996911342536055590
